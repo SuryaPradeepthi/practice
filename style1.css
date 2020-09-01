@@ -1,0 +1,96 @@
+.container{
+    height:96vh;
+    background-color:burlywood;
+    
+}
+
+
+header,footer{
+    height:10%;
+    background-color:gray;
+    text-align:center;
+    color:white;
+}
+.nav{
+    background-color:khaki;
+    display:flex;
+
+}
+a{
+    text-decoration:none;
+}
+.nav a:hover{
+    background-color:white;
+
+}
+.main{
+    background-color:lightcoral;
+    display:flex;
+    align-items:stretch;
+    height:60%;
+}
+.main .box_1, .main .box_3 {
+    flex-grow: 1;
+}
+.main .box_2{
+    flex-grow:2;
+}
+.box_1,.box_2,.box_3{
+    text-align:center;
+    font-size:30px;
+}
+.container_1{
+    height:96vh;
+    background-color:burlywood;
+    
+}
+
+
+div,header,nav,section,footer{
+    border:2px solid black;
+    margin:10px;
+}
+.main_1{
+    background-color:lightcoral;
+    display:flex;
+    align-items:stretch;
+    height:72%;
+}
+.main_1 p{
+    font-size:70px;
+    text-align:center;
+    font-weight:bold;
+}
+.container_2{
+        height:96vh;
+        background-color:burlywood;
+}
+.main_2{
+    background-color:lightcoral;
+    display:flex;
+    align-items:stretch;
+    height:72%;
+}
+.box_a,.box_b{
+    font-size:50px;
+    text-align:center;
+    font-weight:bold;
+}
+.container_3{
+    height:96vh;
+    background-color:burlywood;
+}
+.main_3{
+    background-color:lightcoral;
+    display:flex;
+    align-items:stretch;
+    height:72%;
+}
+.box_11,.box_22,.box_33{
+    font-size:35px;
+    text-align:center;
+    font-weight:bold;
+}
+
+
+
